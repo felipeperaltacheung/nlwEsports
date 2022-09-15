@@ -1,7 +1,17 @@
+//JSX: JS + XML
+//Componentes e Propriedades
+
+function Button(){
+  return(
+    <button>
+      Enviar
+    </button>
+  )
+}
 
 function App() {
 
-  return <h1>HEHEHE</h1>
+  return <Button />
 }
 
 export default App
